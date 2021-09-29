@@ -36,17 +36,19 @@
   text-transform: uppercase;
   font-size: 0.875rem;
   letter-spacing: 3px;
+  animation-duration: 1000ms;
   margin: 74px auto 0;
   padding: 13px 30px 14px;
 }
 
 .u-section-1 .u-btn-2 {
-  border-style: none;
-  background-image: none;
-  text-transform: uppercase;
   font-size: 0.875rem;
   letter-spacing: 3px;
-  margin: -52px auto 0 0;
+  animation-duration: 1000ms;
+  border-style: none;
+  text-transform: uppercase;
+  display: block;
+  margin: -52px 394px 0 0;
   padding: 13px 30px 14px;
 }
 
@@ -71,7 +73,6 @@
   background-image: none;
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
   min-height: 166px;
-  height: auto;
   margin: -95px auto 0 60px;
 }
 
@@ -101,7 +102,6 @@
   background-image: none;
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
   min-height: 114px;
-  height: auto;
   margin: -604px 52px 0 auto;
 }
 
@@ -120,7 +120,6 @@
   background-image: none;
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
   min-height: 114px;
-  height: auto;
   margin: 83px auto 0 15px;
 }
 
@@ -167,6 +166,7 @@
   }
 
   .u-section-1 .u-btn-2 {
+    margin-right: 304px;
     margin-left: -17px;
   }
 
@@ -183,18 +183,15 @@
   .u-section-1 .u-group-1 {
     margin-top: -42px;
     margin-right: 14px;
-    height: auto;
   }
 
   .u-section-1 .u-group-2 {
     margin-top: -1829px;
     margin-left: 25px;
-    height: auto;
   }
 
   .u-section-1 .u-group-3 {
     margin-top: 2389px;
-    height: auto;
   }
 }
 
@@ -231,6 +228,7 @@
   }
 
   .u-section-1 .u-btn-2 {
+    margin-right: 205px;
     margin-left: -37px;
   }
 
@@ -285,7 +283,6 @@
   }
 
   .u-section-1 .u-btn-2 {
-    margin-right: 205px;
     margin-left: auto;
   }
 
@@ -304,7 +301,8 @@
   }
 
   .u-section-1 .u-container-layout-3 {
-    padding: 0 10px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .u-section-1 .u-group-2 {
@@ -353,7 +351,7 @@
 
   .u-section-1 .u-btn-2 {
     margin-top: 22px;
-    margin-right: auto;
+    margin-right: 5px;
     margin-left: 30px;
     padding: 12px 31px 13px;
   }
@@ -379,4 +377,9 @@
     margin-right: 30px;
     margin-left: 15px;
   }
+}.button {
+	transition: 0.5s;
+}
+.button2 {
+	transition: 0.5s;
 }
