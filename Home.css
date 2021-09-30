@@ -354,17 +354,17 @@
 
   .u-section-1 .u-btn-1 {
     margin-top: 30px;
-    margin-right: 0;
+    margin-right: auto;
     margin-left: 31px;
-    padding: 12px 31px 13px;
+    padding: 12px 130px 13px 129px;
   }
 
   .u-section-1 .u-btn-2 {
     margin-top: 22px;
-    margin-right: 238px;
+    margin-right: 42px;
     margin-left: 30px;
-    padding-right: 40px;
-    padding-left: 38px;
+    padding-right: 137px;
+    padding-left: 136px;
   }
 
   .u-section-1 .u-layout-cell-2 {
@@ -1112,6 +1112,9 @@
 
 .u-section-5 .u-group-2 {
   animation-duration: 1000ms;
+  width: 500px;
+  height: auto;
+  min-height: 170px;
   margin: 30px 8px 0;
 }
 
@@ -1126,13 +1129,14 @@
 
 .u-section-5 .u-group-3 {
   animation-duration: 1000ms;
-  width: 496px;
+  width: 500px;
   height: auto;
+  min-height: 170px;
   margin: 60px 0 0 auto;
 }
 
 .u-section-5 .u-container-layout-5 {
-  padding: 30px;
+  padding: 30px 30px 0;
 }
 
 .u-section-5 .u-text-5 {
@@ -1173,8 +1177,9 @@
   }
 
   .u-section-5 .u-group-2 {
-    margin-right: initial;
-    margin-left: initial;
+    width: 397px;
+    margin-right: 0;
+    height: auto;
   }
 
   .u-section-5 .u-group-3 {
@@ -1202,6 +1207,10 @@
 
   .u-section-5 .u-text-2 {
     font-size: 2.25rem;
+  }
+
+  .u-section-5 .u-group-2 {
+    width: 312px;
   }
 
   .u-section-5 .u-group-3 {
@@ -1252,8 +1261,6 @@
 
   .u-section-5 .u-group-2 {
     min-height: 110px;
-    margin-right: initial;
-    margin-left: initial;
   }
 
   .u-section-5 .u-container-layout-4 {
@@ -1262,7 +1269,6 @@
   }
 
   .u-section-5 .u-group-3 {
-    min-height: 170px;
     margin-top: 30px;
     margin-right: initial;
     margin-left: initial;
@@ -1272,7 +1278,6 @@
   .u-section-5 .u-container-layout-5 {
     padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: 0;
   }
 
   .u-section-5 .u-text-5 {
@@ -1397,6 +1402,8 @@
 .u-section-7 .u-image-1 {
   width: 225px;
   height: 225px;
+  background-image: url("images/image1.jpg");
+  background-position: 50% 50%;
   margin: -521px auto 0;
 }
 
@@ -1405,7 +1412,6 @@
   background-image: none;
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
   min-height: 61px;
-  height: auto;
   margin: 245px auto -9px;
 }
 
@@ -1464,6 +1470,8 @@
 .u-section-7 .u-image-2 {
   width: 225px;
   height: 225px;
+  background-image: url("images/image.jpg");
+  background-position: 50% 50%;
   margin: -521px auto 0;
 }
 
@@ -1472,7 +1480,6 @@
   background-image: none;
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
   min-height: 61px;
-  height: auto;
   margin: 245px auto 0;
 }
 
@@ -1557,7 +1564,6 @@
   .u-section-7 .u-group-2 {
     margin-top: 269px;
     margin-bottom: 0;
-    height: auto;
   }
 
   .u-section-7 .u-group-3 {
@@ -1578,7 +1584,6 @@
 
   .u-section-7 .u-group-4 {
     margin-top: 269px;
-    height: auto;
   }
 }
 
@@ -1766,7 +1771,6 @@
 .u-section-8 .u-group-1 {
   width: 319px;
   min-height: 524px;
-  height: auto;
   box-shadow: 0 0 8px 0 rgba(128,128,128,1);
   margin: 66px auto 0;
 }
@@ -1806,7 +1810,6 @@
 .u-section-8 .u-group-2 {
   width: 319px;
   min-height: 524px;
-  height: auto;
   box-shadow: 0 0 8px 0 rgba(128,128,128,1);
   margin: -524px 41px 0 auto;
 }
@@ -1844,7 +1847,6 @@
 .u-section-8 .u-group-3 {
   width: 319px;
   min-height: 524px;
-  height: auto;
   box-shadow: 0 0 8px 0 rgba(128,128,128,1);
   margin: -524px auto 0 27px;
 }
@@ -1885,7 +1887,6 @@
     min-height: 520px;
     margin-top: 63px;
     margin-right: 304px;
-    height: auto;
   }
 
   .u-section-8 .u-shape-1 {
@@ -1901,7 +1902,6 @@
     min-height: 520px;
     margin-top: -521px;
     margin-right: -37px;
-    height: auto;
   }
 
   .u-section-8 .u-shape-2 {
@@ -1920,7 +1920,6 @@
     width: 300px;
     margin-top: -522px;
     margin-left: -20px;
-    height: auto;
   }
 
   .u-section-8 .u-shape-3 {
@@ -2031,6 +2030,11 @@
     margin-left: -36px;
   }
 
+  .u-section-8 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
   .u-section-8 .u-shape-1 {
     margin-top: 34px;
     margin-left: 26px;
@@ -2082,6 +2086,8 @@
 
   .u-section-8 .u-container-layout-3 {
     padding-top: 21px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .u-section-8 .u-shape-3 {
@@ -2118,8 +2124,6 @@
   }
 
   .u-section-8 .u-container-layout-1 {
-    padding-left: 10px;
-    padding-right: 10px;
     padding-bottom: 29px;
   }
 
@@ -2174,8 +2178,6 @@
 
   .u-section-8 .u-container-layout-3 {
     padding-bottom: 21px;
-    padding-left: 10px;
-    padding-right: 10px;
   }
 
   .u-section-8 .u-shape-3 {
