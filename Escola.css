@@ -27,7 +27,7 @@
 .u-section-1 .u-shape-1 {
   width: 557px;
   height: 523px;
-  background-image: linear-gradient(45deg, #a5c0f2, #4d6eaa);
+  background-image: linear-gradient(45deg, #ffd499, #ec8700);
   margin: -163px auto 0 50px;
 }
 
@@ -1531,7 +1531,7 @@
 .u-section-5 .u-shape-1 {
   width: 418px;
   height: 428px;
-  background-image: linear-gradient(#4d6eaa, #a5c0f2);
+  background-image: linear-gradient(#ec8700, #ffd499);
   margin: -509px 0 0 auto;
 }
 
@@ -2307,7 +2307,7 @@
 .u-section-8 .u-shape-2 {
   width: 444px;
   height: 514px;
-  background-image: linear-gradient(#4d6eaa, #a5c0f2);
+  background-image: linear-gradient(#ec8700, #ffd499);
   margin: -407px calc(((100% - 1140px) / 2) + 246px) 0 auto;
 }
 
