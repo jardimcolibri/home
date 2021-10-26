@@ -846,7 +846,7 @@
 
   .u-section-3 .u-line-6 {
     width: 78px;
-    margin-top: -449px;
+    margin-top: -455px;
   }
 
   .u-section-3 .u-image-1 {
@@ -2179,16 +2179,20 @@
 
 .u-section-8 .u-gallery-nav-1 {
   position: absolute;
-  left: 10px;
+  left: auto;
   width: 34px;
   height: 34px;
+  top: 98px;
+  right: 0;
 }
 
 .u-section-8 .u-gallery-nav-1 {
   position: absolute;
-  left: 10px;
+  left: auto;
   width: 34px;
   height: 34px;
+  top: 98px;
+  right: 0;
 }
 
 .u-section-8 .u-text-2 {
@@ -2261,15 +2265,11 @@
   }
 
   .u-section-8 .u-gallery-nav-1 {
-    left: auto;
     top: 113px;
-    right: 0;
   }
 
   .u-section-8 .u-gallery-nav-1 {
-    left: auto;
     top: 113px;
-    right: 0;
   }
 
   .u-section-8 .u-text-2 {
