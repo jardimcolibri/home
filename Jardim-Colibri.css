@@ -813,6 +813,7 @@
   .u-section-3 .u-line-1 {
     width: 74px;
     transform-origin: left center 0px;
+    animation-duration: 2000ms;
     margin-top: -393px;
     margin-right: auto;
     margin-left: 0;
@@ -844,11 +845,8 @@
   }
 
   .u-section-3 .u-line-6 {
-    width: 94px;
-    transform-origin: right center 0px;
-    margin-top: -789px;
-    margin-right: 17px;
-    margin-left: auto;
+    width: 78px;
+    margin-top: -449px;
   }
 
   .u-section-3 .u-image-1 {
