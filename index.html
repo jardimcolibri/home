@@ -418,7 +418,7 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
                   </div>
                 </div>
                 <div class="u-image u-image-circle u-preserve-proportions u-image-1" alt="" data-image-width="569" data-image-height="759"></div>
-                <a href="https://nicepage.site" class="u-border-none u-btn u-button-style u-grey-5 u-btn-1">Saiba mais...</a>
+                <a class="u-border-none u-btn u-button-style u-grey-5 u-btn-1 Ana">Saiba mais...</a>
               </div>
             </div>
             <div class="u-carousel-item u-container-style u-slide">
@@ -431,7 +431,7 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
                   </div>
                 </div>
                 <div class="u-image u-image-circle u-preserve-proportions u-image-2" alt="" data-image-width="319" data-image-height="395"></div>
-                <a href="https://nicepage.site" class="u-border-none u-btn u-button-style u-grey-5 u-btn-2">Saiba mais...</a>
+                <a class="u-border-none u-btn u-button-style u-grey-5 u-btn-2 Carol-Almeida">Saiba mais...</a>
               </div>
             </div>
           </div>
@@ -536,6 +536,110 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
         </div>
       </div>
     </section>
+
+    <style>
+      .modal-container {
+        width: 100vw;
+        height: 100vh;
+        background: rgba(0,0,0,.5);
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        z-index: 2000;
+        display: none;
+        justify-content: center;
+        align-items: center;
+      }
+  
+      .modal-container.mostrar {
+        display: flex;
+      }
+  
+      .modal {
+        background: white;
+        width: 70%;
+        min-width: 300px;
+        padding: 10px;
+        border: 10px solid #f0e3e6;
+        box-shadow: 0 0 0 10px white;
+        position: relative;
+      }
+  
+      @keyframes modal {
+        from {
+          opacity: 0;
+          transform: translate3d(0, -60px, 0);
+        }
+        to {
+          opacity: 1;
+          transform: translate3d(0, 0, 0);
+        }
+      }
+  
+      .mostrar .modal {
+        animation: modal .3s;
+      }
+  
+      .fechar {
+        position: absolute;
+        font-size: 1.2em;
+        top: -30px;
+        right: -30px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: 4px solid white;
+        background: #f0e3e6;
+        color: #bf6b92;
+        font-family: "PT Mono", monospace;
+        cursor: pointer;
+        box-shadow: 0 4px 4px 0 rgba(0,0,0,.3);
+      }
+    </style>
+
+    <div id="modal-Ana" class="modal-container">
+      <div class="modal">
+        <button class="fechar">x</button>
+        <h3 class="subtitulo">Ana</h3>
+        <p>Meu nome é Ana, tenho 27 anos, formada no Bacharelado Interdisciplinar em Humanidades e na Licenciatura em Pedagogia pela Universidade Federal dos Vales do Jequitinhonha e Mucuri (UFVJM).</p><p>
+
+        Meu nome é Ana, tenho 27 anos, formada no Bacharelado Interdisciplinar em Humanidades e na Licenciatura em Pedagogia pela Universidade Federal dos Vales do Jequitinhonha e Mucuri (UFVJM).</p><p>
+
+        Atualmente cursando pós-graduação em Educação Especial e Inclusiva e na Pedagogia Waldorf. </p><p>
+          
+      </div>
+    </div>
+
+    <div id="modal-Carol-Almeida" class="modal-container">
+      <div class="modal">
+        <button class="fechar">x</button>
+        <h3 class="subtitulo">Carol Almeida</h3>
+        <p>Eu sou Carol Almeida, professora do 1° ano do Ensino Fundamental da escola Jardim Colibri. Trabalho na educação desde 2015. Iniciei minha jornada com a pedagogia tradicional, em uma escola privada aqui na cidade de Lavras. Em 2019, a querida amiga Iara, que também fez parte do Jardim Colibri, me falou da escola e da Pedagogia. Senti um chamado muito forte em conhecer esse universo antroposófico. Foi amor desde o primeiro dia. Meu primeiro contato, foi através de um grupo de estudos das famílias. Encontro que me levou até o Conselho Pedagógico. Poucos dias depois, eu já me sentia totalmente conectada a esse mundo que mesmo sabendo tão pouco, já me pertencia de alma. Foi um verdadeiro encontro com a Pedagogia Waldorf. Passei por processos internos e precisei tomar decisões que mudariam totalmente o rumo da minha vida como professora. Fechei o ciclo na Pedagogia Tradicional e mergulhei de corpo e alma na Pedagogia Waldorf.</p><p>
+
+          Em menos de três meses de conhecimento da Pedagogia Waldorf, eu não tinha dúvidas que esse era o meu caminho. Iniciei a formação no Seminário Waldorf logo em seguida. Encantada com todo esse universo, eu sentia um desejo muito grande de levar uma classe, de ser professora do Ensino Fundamental e tudo aconteceu de forma orgânica. Hoje me sinto muito grata de ser professora das crianças que fundaram a escola, das primeiras sementinhas que hoje já estão florindo nessa caminhada da alfabetização. Sinto uma conexão muito forte com as crianças que também me escolheram para conduzi-las nessa jornada.</p>
+      </div>
+    </div>
+
+    <script>
+      function iniciaModal(modalID) {
+        const modal = document.getElementById(modalID);
+        modal.classList.add('mostrar');
+        modal.addEventListener('click', (e) => {
+          if(e.target.id == modalID || e.target.className == 'fechar') {
+            modal.classList.remove('mostrar');
+            localStorage.fechaModal = modalID;
+          }
+        });
+      }
+
+      const Ana = document.querySelector('.Ana');
+		  Ana.addEventListener('click', () => iniciaModal("modal-Ana"));
+
+      const CarolAlmeida = document.querySelector('.Carol-Almeida');
+		  CarolAlmeida.addEventListener('click', () => iniciaModal("modal-Carol-Almeida"));
+
+    </script>
+
     <section class="u-align-center u-clearfix u-white u-section-7" id="sec-b1ec">
       <div class="u-clearfix u-sheet u-valign-middle-lg u-sheet-1">
         <div class="u-clearfix u-expanded-width u-gutter-0 u-layout-wrap u-layout-wrap-1">
