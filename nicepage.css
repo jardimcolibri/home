@@ -24660,15 +24660,15 @@ li.active > a.u-button-style.u-button-style.u-active-white[class*="u-border-"] {
   background-color: #ffffff !important;
 }
 a.u-link.u-hover-white:hover {
-  color: #000000 !important;
+  color: #ffffff !important;
 }
 .u-black,
 .u-body.u-black,
 .u-container-style.u-black:before,
 .u-container-layout.u-black:before,
 .u-table-alt-black tr:nth-child(even) {
-  color: #000000;
-  background-color: #d9b8c1;
+  color: #ffffff;
+  background-color: #000000;
 }
 .u-button-style.u-black,
 .u-button-style.u-black[class*="u-border-"] {
