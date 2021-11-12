@@ -20091,8 +20091,8 @@ li.active > .u-button-style.u-text-active-none {
 .u-container-style.u-color-1-dark-3:before,
 .u-container-layout.u-color-1-dark-3:before,
 .u-table-alt-color-1-dark-3 tr:nth-child(even) {
-  color: #ffffff;
-  background-color: #332f29;
+  color: #000000;
+  background-color: #d9b8c1;
 }
 .u-button-style.u-color-1-dark-3,
 .u-button-style.u-color-1-dark-3[class*="u-border-"] {
