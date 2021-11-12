@@ -4,6 +4,10 @@
  * Copyright 2014-2020 Froala Labs
  */
 
+* {
+  overflow: hidden;
+}
+
 .fr-clearfix::after {
   clear: both;
   display: block;
@@ -24667,8 +24671,8 @@ a.u-link.u-hover-white:hover {
 .u-container-style.u-black:before,
 .u-container-layout.u-black:before,
 .u-table-alt-black tr:nth-child(even) {
-  color: #ffffff;
-  background-color: #000000;
+  color: #000000;
+  background-color: #d9b8c1;
 }
 .u-button-style.u-black,
 .u-button-style.u-black[class*="u-border-"] {
